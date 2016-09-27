@@ -1,0 +1,56 @@
+body{
+    margin:0px;
+    background-image: url(/Users/zpinner/Documents/TheIronYard/w1d2-make-a-site/img/background.png);
+    font-family: 'Lalezar', sans-serif;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* made the header style, didn't use it */
+
+.header{
+    height:75px;
+    background:#F0F0F0;
+    border:3px solid #1768AC;
+    border-radius: 25px;
+    width:960px;
+    margin:0px auto;
+    font-size: 25px;
+}
+.content{
+    width:360px;
+    background: #F0F0F0;
+    border: 1px solid #CCC;
+    border-radius: 25px;
+    box-shadow: 20px 20px 10px;
+    height: auto;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.logo{
+  color: #1768AC;
+}
+
+.img{
+  display: block;
+  width: 30%;
+  height:30%;
+  margin: 10px auto;
+  border-radius: 50%;
+  border:3px solid #1768AC;
+}
+
+.button{
+  background-color: #1768AC;
+  border: 1px solid black;
+  color: white;
+  border-radius: 15px;
+  padding: 7px 7px;
+  text-align: center;
+  cursor:pointer;
+  display: inline-block;
+  font-size: 16px;
+}
